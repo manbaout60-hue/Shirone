@@ -13,7 +13,7 @@ export const siteConfig: SiteConfig = withUserConfig("site", {
 	site: "https://shirone.mysqil.com/",
 	base: "/",
 	title: "Shirone",
-	subtitle: "A Material 3 anime blog",
+	subtitle: "一个 Material 3 风格的二次元博客",
 	// 电脑端顶栏标题与导航内容区域："left" 左对齐，"center" 居中。
 	topAppBar: {
 		contentAlign: "center",
@@ -27,7 +27,7 @@ export const siteConfig: SiteConfig = withUserConfig("site", {
 		reduceMotion: true, // 是否展示减少动效切换
 		texture: true, // 是否展示背景纹理选择
 	},
-	lang: "en", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
+	lang: "zh_CN", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	// IANA time zone for precise post and moment timestamps. It is independent of lang.
 	timeZone: "Asia/Shanghai",
 	themeColor: {
@@ -72,11 +72,11 @@ export const siteConfig: SiteConfig = withUserConfig("site", {
 			enable: true,
 			title: "Shirone",
 			subtitle: [
-				"特別なことはないけど、君がいると十分です",
-				"今でもあなたは私の光",
-				"君ってさ、知らないうちに私の毎日になってたよ",
-				"君と話すと、なんか毎日がちょっと楽しくなるんだ",
-				"今日はなんでもない日。でも、ちょっとだけいい日",
+				"没有什么特别的事，但有你在就足够了",
+				"直到现在，你依然是我的光",
+				"不知不觉间，你已经成为我的日常",
+				"和你聊聊天，每一天都多了一点快乐",
+				"今天是平凡的一天，也是有点美好的一天",
 			],
 			typewriter: {
 				// 副标题逐字显示；关闭后直接显示完整副标题。
