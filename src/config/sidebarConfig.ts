@@ -28,8 +28,8 @@ export const sidebarConfig: SidebarConfig = withUserConfig("sidebar", {
 	side: "left",
 	components: [
 		{ type: "profile", enable: true, slot: "top" },
-		{ type: "music", enable: true, slot: "top" },
-		{ type: "announcement", enable: true, slot: "top", pages: ["home"] },
+		{ type: "music", enable: false, slot: "top" },
+		{ type: "announcement", enable: false, slot: "top", pages: ["home"] },
 		{
 			type: "categories",
 			enable: true,
