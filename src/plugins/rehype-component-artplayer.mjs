@@ -7,7 +7,7 @@ export function ArtPlayerComponent(properties, children) {
 
 	const embed = getArtPlayerEmbedData(properties);
 	if (!embed) return null;
-	const { src, title, preload } = embed;
+	const { src, title, preload, poster } = embed;
 
 	return h("figure", { class: "m3-artplayer not-prose", dataArtplayer: true }, [
 		h("video", {
@@ -16,6 +16,7 @@ export function ArtPlayerComponent(properties, children) {
 			controls: true,
 			preload,
 			playsInline: true,
+			...(poster ? { poster } : {}),
 			ariaLabel: title,
 		}),
 		h("figcaption", { class: "m3-artplayer__caption" }, [

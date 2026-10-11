@@ -10,24 +10,40 @@ draft: false
 lang: ''
 ---
 
-欢迎来到我的博客！这里分享五个生成的视频。
+欢迎来到我的博客！这里分享九个生成的视频。
 
 ## 视频 1
 
-::artplayer{src="/videos/hello-world/video-1.mp4" title="0b075f9f71f255b63b497bfb41920282"}
+::artplayer{src="/videos/hello-world/video-1.mp4" poster="/videos/hello-world/video-1.jpg" title="打雪仗"}
 
 ## 视频 2
 
-::artplayer{src="/videos/hello-world/video-2.mp4" title="6f8be1192b6faa2660631190041a2151"}
+::artplayer{src="/videos/hello-world/video-2.mp4" poster="/videos/hello-world/video-2.jpg" title="打雪仗2"}
 
 ## 视频 3
 
-::artplayer{src="/videos/hello-world/video-3.mp4" title="a15c714f29559255191b0d8ccfc45e65"}
+::artplayer{src="/videos/hello-world/video-3.mp4" poster="/videos/hello-world/video-3.jpg" title="玩耍"}
 
 ## 视频 4
 
-::artplayer{src="/videos/hello-world/video-4.mp4" title="deepseek_enter_university"}
+::artplayer{src="/videos/hello-world/video-4.mp4" poster="/videos/hello-world/video-4.jpg" title="进校园"}
 
 ## 视频 5
 
-::artplayer{src="/videos/hello-world/video-5.mp4" title="成片_鲸鱼抱枕小生物敲门_v01_video_1"}
+::artplayer{src="/videos/hello-world/video-5.mp4" poster="/videos/hello-world/video-5.jpg" title="鲸鱼敲门"}
+
+## 视频 6
+
+::artplayer{src="/videos/hello-world/video-6.mp4" poster="/videos/hello-world/video-6.jpg" title="沙滩"}
+
+## 视频 7
+
+::artplayer{src="/videos/hello-world/video-7.mp4" poster="/videos/hello-world/video-7.jpg" title="钢卷"}
+
+## 视频 8
+
+::artplayer{src="/videos/hello-world/video-8.mp4" poster="/videos/hello-world/video-8.jpg" title="虎鲸"}
+
+## 视频 9
+
+::artplayer{src="/videos/hello-world/video-9.mp4" poster="/videos/hello-world/video-9.jpg" title="吃面"}

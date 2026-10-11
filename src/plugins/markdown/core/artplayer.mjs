@@ -20,8 +20,9 @@ function getSafeUrl(value) {
 export function getArtPlayerEmbedData(attributes = {}) {
 	const src = getSafeUrl(attributes.src);
 	const title = getText(attributes.title);
+	const poster = getSafeUrl(attributes.poster);
 	const preload = getVideoPreload(attributes.preload);
 	if (!src || !title || preload === null) return null;
 
-	return { src, title, preload };
+	return { src, title, preload, poster };
 }

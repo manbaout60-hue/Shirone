@@ -295,7 +295,7 @@
 			"forms": [
 				{
 					"kind": "leaf-directive",
-					"pattern": "::artplayer{src=\"...\" title=\"...\" preload=\"auto\"}",
+					"pattern": "::artplayer{src=\"...\" poster=\"...\" title=\"...\" preload=\"auto\"}",
 					"example": "::artplayer{src=\"/videos/example.mp4\" title=\"Example video\"}"
 				}
 			],
@@ -310,6 +310,12 @@
 					"name": "title",
 					"required": true,
 					"values": "non-empty video title",
+					"default": null
+				},
+				{
+					"name": "poster",
+					"required": false,
+					"values": "site-root image path or explicit HTTPS image URL",
 					"default": null
 				},
 				{
